@@ -16,9 +16,15 @@ define('LARAVEL_START', microtime(true));
 |
 */
 
+// local
 if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
     require __DIR__.'/../storage/framework/maintenance.php';
 }
+
+// production
+// if (file_exists(__DIR__.'/../../../../punchkard_core/storage/framework/maintenance.php')) {
+//     require __DIR__.'/../../../../punchkard_core/storage/framework/maintenance.php';
+// }
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +37,11 @@ if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
 |
 */
 
+// local
 require __DIR__.'/../vendor/autoload.php';
+
+// production
+// require __DIR__.'/../../../../punchkard_core/vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -44,7 +54,12 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
+// local
 $app = require_once __DIR__.'/../bootstrap/app.php';
+
+// production
+// $app = require_once __DIR__.'/../../../../todoloo_core/bootstrap/app.php';
+// $app->bind('path.public', function() { return __DIR__; });
 
 $kernel = $app->make(Kernel::class);
 
