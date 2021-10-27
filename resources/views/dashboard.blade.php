@@ -1,5 +1,3 @@
 <x-app-layout>
-    <div class="px-12">
-
-    </div>
+    <x-landing.hero />
 </x-app-layout>
