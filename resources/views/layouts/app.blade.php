@@ -22,7 +22,7 @@
         @livewireScripts
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen">
+        <div class="min-h-screen bg-gray-200">
             <x-nav.navbar />
 
             <!-- Page Content -->

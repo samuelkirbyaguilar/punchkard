@@ -1,4 +1,4 @@
-<nav class="flex p-6">
+<nav class="flex p-6 bg-white">
     <nav class="relative flex justify-between sm:h-10 lg:justify-start w-full" aria-label="Global">
         <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div class="flex items-center justify-between w-full md:w-auto">
@@ -17,7 +17,7 @@
             </div>
             </div>
         </div>
-        <div class="hidden md:ml-10 md:pr-4 md:space-x-8 md:flex justify-end w-full">
+        <div class="hidden md:ml-10 md:pr-4 md:space-x-8 md:flex items-center justify-end w-full">
             <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Product</a>
 
             <a href="#" class="font-medium text-gray-500 hover:text-gray-900">Features</a>
