@@ -12,18 +12,20 @@
                 font-extrabold text-gray-500"
             >your entire workflow.</span>
             <div class="flex w-full mt-6 space-x-4">
-                <a href=""
+                <a href="/signup"
                 class="px-4 py-2
-                bg-blue-500 hover-bg-blue-600
                 text-lg md:text-xl lg:text-2xl
                 text-white font-medium
+                bg-blue-500 hover:bg-blue-600
+                transition-colors duration-250
                 rounded-full"
                 >Get Started</a>
                 <a href=""
                 class="px-4 py-2
-                bg-gray-200 hover-bg-gray-400
                 text-lg md:text-xl lg:text-2xl
                 text-black font-medium
+                bg-gray-200 hover:bg-gray-300
+                transition-colors duration-250
                 rounded-full"
                 >Log in</a>
             </div>
