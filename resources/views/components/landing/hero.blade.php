@@ -12,7 +12,7 @@
                 font-extrabold text-gray-500"
             >your entire workflow.</span>
             <div class="flex w-full mt-6 space-x-4">
-                <a href="/signup"
+                <a href="{{ route('register') }}"
                 class="px-4 py-2
                 text-lg md:text-xl lg:text-2xl
                 text-white font-medium
@@ -20,7 +20,7 @@
                 transition-colors duration-250
                 rounded-full"
                 >Get Started</a>
-                <a href="/login"
+                <a href="{{ route('login') }}"
                 class="px-4 py-2
                 text-lg md:text-xl lg:text-2xl
                 text-black font-medium
