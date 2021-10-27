@@ -1,6 +1,6 @@
-<div class="grid grid-cols-9 w-full">
+<div class="grid grid-cols-9 pt-12 w-full">
     <div class="flex flex-col justify-center col-span-4 max-w-7xl">
-        <div class="flex flex-col pl-16 tracking-tight font-extrabold">
+        <div class="flex flex-col pl-2 tracking-tight font-extrabold">
             <span
                 class="block xl:inline
                 text-6xl md:text-7xl lg:text-8xl
@@ -33,7 +33,7 @@
     </div>
     <div class="col-span-5">
         <img
-            src="{{ asset('img/home/proj_manager.svg') }}"
+            src="{{ asset('img/home/proj_manager_cropped.svg') }}"
             class="w-auto"
             alt="Hero Image"
         >

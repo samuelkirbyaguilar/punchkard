@@ -26,7 +26,7 @@
             <x-nav.navbar />
 
             <!-- Page Content -->
-            <main class="p-6">
+            <main class="px-48">
                 {{ $slot }}
             </main>
         </div>

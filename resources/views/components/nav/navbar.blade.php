@@ -1,4 +1,4 @@
-<nav class="flex py-6 px-20 bg-white">
+<nav class="flex py-6 px-48 bg-white">
     <nav class="relative flex justify-between sm:h-10 lg:justify-start w-full" aria-label="Global">
         <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
             <div class="flex items-center justify-between w-full md:w-auto">
